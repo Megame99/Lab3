@@ -58,13 +58,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-.wrapper {
-    height: 100vh;
-    display: flex;
-
-    /* Direction of the items, can be row or column */
-    flex-direction: column;
-}
 
 menu {
 
@@ -88,6 +81,7 @@ text-align: center;
 header {
 postion: fixed;
 height: 30px;  
+top: 0;
 
 }
 body {
