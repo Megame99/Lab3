@@ -75,15 +75,14 @@ content {
 }
 
 footer {
-position:fixed; 
-bottom: 0px;
+
 height: 30px;
 }
 
 header {
-position:fixed;
+
 height: 30px;  
-top: 0px;
+
 }
 body {
   margin: 0;
