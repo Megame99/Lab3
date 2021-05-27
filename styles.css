@@ -71,12 +71,13 @@ menu {
 }
 
 content {
-  flex: 1
+  height: 100%
 }
 
 footer {
-
+bottom: 0;
 height: 30px;
+position: fixed;
 }
 
 header {
