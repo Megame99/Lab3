@@ -71,7 +71,7 @@ menu {
 }
 
 content {
-  height: 100%
+  
 }
 
 footer {
@@ -81,7 +81,7 @@ position: fixed;
 }
 
 header {
-
+postion: fixed;
 height: 30px;  
 
 }
