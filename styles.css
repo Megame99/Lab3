@@ -57,21 +57,32 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+
+    /* Direction of the items, can be row or column */
+    flex-direction: column;
+}
+
 menu {
 
 }
 
 content {
-
+  flex: 1
 }
 
-.footer {
+footer {
 position:fixed; 
 bottom: 0px;
+height: 30px;
 }
 
 header {
-position:fixed; 
+position:fixed;
+height: 30px;  
 top: 0px;
 }
 body {
